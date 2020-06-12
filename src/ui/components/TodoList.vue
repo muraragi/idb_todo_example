@@ -2,7 +2,7 @@
   <v-container class="todo-list">
     <v-row align="center" justify="center">
       <v-col align-self="center" lg="5">
-        <h2>Todo with IndexdDB demo</h2>
+        <h2>Todo with IndexedDB demo</h2>
         <v-text-field
           class="mt-4"
           solo
