@@ -22,7 +22,10 @@
                 ></v-checkbox>
               </v-list-item-action>
               <v-list-item-content>
-                {{ todo.body }}
+                <v-list-item-title v-text="todo.body"></v-list-item-title>
+                <v-list-item-subtitle
+                  v-text="todo.getFormattedDate()"
+                ></v-list-item-subtitle>
               </v-list-item-content>
               <v-list-item-action @click="deleteTodo(index)">
                 <v-btn icon color="red lighten-2">

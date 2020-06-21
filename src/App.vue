@@ -38,7 +38,6 @@ export default {
       this.db.create('todo', todo)
     },
     updateTodo(index) {
-      console.log(index)
       this.todos[index].completed = !this.todos[index].completed
       this.db.update('todo', this.todos[index])
     },
